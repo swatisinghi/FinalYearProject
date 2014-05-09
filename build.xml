@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<project name="sms" default="war" basedir=".">
+
+	<property file="build.properties" />
+	<property name="projectname" value="sms" />
+	<property name="src.dir" value="src" />
+	<property name="java.src.dir" value="${src.dir}" />
+	<property name="jsp.src.dir" value="jsp" />
+	<property name="res.dir" value="res" />
+	<property name="scripts.dir" value="scripts" />
+	<property name="build.dir" value="build" />
+	<property name="classes.dir" value="${build.dir}/classes" />
+	<property name="lib.dir" value="lib" />
+	<property name="WEB-INF1" value="WEB-INF" />
+
+	<path id="classpath.path">
+		<fileset dir="${lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="all" depends="clean,compile"
+		description="Cleans and Builds the whole project" />
+
+	<target name="compile" description="Builds the project">
+		<mkdir dir="${classes.dir}" />
+		<javac srcdir="${java.src.dir}" destdir="${classes.dir}">
+			<classpath>
+				<path refid="classpath.path" />
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="clean">
+		<delete dir="${classes.dir}" />
+	</target>
+
+	<target name="war" depends="clean,compile">
+		<echo message="Creating war for ${projectname}" />
+		<war destfile="${build.dir}/sms.war" webxml="web.xml">
+			<fileset dir="${jsp.src.dir}" />
+			<lib dir="${lib.dir}" includes="**/*.jar" />
+			<classes dir="${classes.dir}" includes="**/*.class" />
+			<classes dir="${res.dir}" includes="**/*" />
+			<classes dir="${scripts.dir}" includes="**/*" />
+			<classes dir="${src.dir}" includes="**/*.properties" />
+		</war>
+	</target>
+
+	<target name="jar" depends="clean,compile"
+		description="Creates the sms jar">
+ 		<jar
+		    destfile="${build.dir}/${projectname}.jar"
+		    basedir="${classes.dir}"
+		  	compress="true" />	</target>
+</project>

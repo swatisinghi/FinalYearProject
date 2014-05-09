@@ -1,0 +1,205 @@
+html, body, ul, ol, form, input, select, textarea {
+	font-size: 13px;
+	font-family: arial, sans-serif, "lucida grande", "lucida sans", tahoma, verdana;
+}
+
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+.headerGradient {
+		background-image: -moz-linear-gradient(top, #345, #100);
+		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #100),color-stop(1, #345)); /* Saf4+, Chrome */
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345')"; /* IE8+ */
+}
+
+ul, ol, dl {
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+.loginText {
+}
+
+.loginAcctText {
+	color: #FFF;
+}
+
+.headerStrip {
+	width: 100%;
+	background-color: #345;
+}
+
+.headerContent {
+	width: 970px;
+	margin: auto;
+}
+
+.headText {
+	color: #FFF;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.mainWrapper {
+	width: 990px;
+	margin: auto;
+}
+
+.mainWrapperReg {
+	width: 800px;
+	margin: auto;
+}
+
+.loginWrapper {
+	border: 2px solid #E0E0E0;
+	padding: 2px;
+	float: right;
+	margin: 30px;
+	margin-top: 50px;
+}
+
+.loginForm {
+	float: right;
+	background-color: #F9F9F9;
+	border: 2px solid #111;
+	padding: 15px;
+	width: 250px;
+	margin: 2px;
+}
+
+.createAccLink {
+	margin-top: 15px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid #EEE;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-image: -moz-linear-gradient(top, #345, #100);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #100),color-stop(1, #345)); /* Saf4+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345')"; /* IE8+ */
+	
+}
+
+.createAccLink a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.imgDesg {
+	padding: 10px;
+	margin-top: 30px;
+	margin-right: -20px;
+	float: left;	
+}
+
+.fieldDesc {
+	font-size: smaller;
+	color: #6F6F6F;
+}
+
+.cAlign {
+	text-align: center;
+}
+
+.error {
+	color: #000;
+	font-weight: bold;
+}
+
+.features {
+	margin-left: 315px;
+	padding-left: 15px;
+	padding-top: 80px;
+	font-size: 16px;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	vertical-align: middle;
+}
+
+.logoHead {
+	vertical-align: middle;
+}
+
+.clearfix {
+	display: block;
+	zoom: 1;
+}
+
+.clearfix::after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.box-shadow {
+	-webkit-box-shadow: #244766 5px 5px 10px;
+	-moz-box-shadow: #244766 10px 10px 10px;
+	box-shadow: #244766 10px 10px 10px;
+}
+
+
+.leftContent {
+	float: left;
+	width: 400px;
+	padding: 15px;
+}
+
+.contentWrapper {
+	width: 970px;
+	margin: auto;
+}
+
+.dInline {
+	display: inline;
+}
+
+.tcenter {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.imgText {
+	margin: 10px;	
+}
+
+.lFloat {
+	float: left;
+}
+
+.contentInner {
+	width: 970px;
+	margin: auto;
+}
+
+.tabHead {
+	width: 100%;
+}
+
+.tabHead thead td {
+	background-color: #838B8B;
+	font-weight: bold;
+	padding: 3.7px;
+	overflow: hidden;
+}
+.tabHead tbody tr td {
+	font-weight: normal;
+	background-color: #B0B0B0;
+	overflow: hidden;
+	padding: 2px;
+}
+
+

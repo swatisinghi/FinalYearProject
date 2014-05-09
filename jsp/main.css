@@ -1,0 +1,308 @@
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+border: 0;
+}
+
+html, body, ul, ol, form, input, select, textarea {
+	font-size: 14px;
+	font-family: arial, "lucida grande", "lucida sans", tahoma, verdana;
+}
+
+.error {
+	color: #C00;
+	font-weight: bold;
+}
+
+.confirmation {
+	color: #080;
+	font-weight: bold;
+}
+
+divo {
+	border: 1px solid #EEE;
+}
+
+ul {
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+.clearfix {
+	display: block;
+	zoom: 1;
+}
+
+.clearfix::after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.greeting {
+	color: #FFFFFF;
+	font-size: 18px;	
+}
+
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.header {
+	background-image: -moz-linear-gradient(top, #345, #100);
+		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #100),color-stop(1, #345)); /* Saf4+, Chrome */
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345')"; /* IE8+ */
+	width: 100%;
+	
+}
+
+.mainWrapper {
+	width: 100%;
+}
+
+.rightLinks {
+	padding: 5px;
+	color: #FFFFFF;
+}
+
+.rightLinks ul li {
+	display: inline;
+}
+
+.rightLinks ul li a {
+	display: inline;
+	color: #FFFFFF;
+}
+
+.addTab {
+	color: #000;
+	float: right;
+	padding: 5px;
+}
+
+.addTab ul li {
+	display: inline;
+}
+
+.addTab ul li a {
+	display: inline;
+	color: #000;
+}
+
+.mainContent {
+	width: 890px;
+	margin: 0 auto;
+}
+
+.leftNav {
+	float: left;
+	width: 179px;
+}
+
+.leftNav ul li {
+	margin-top: 2px;
+	background-image: -moz-linear-gradient(top, #345, #100);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #100),color-stop(1, #345)); /* Saf4+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345')"; /* IE8+ */
+	font-weight: bold;
+	padding: 6px;
+	
+}
+
+.leftNav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.box-shadow {
+	-webkit-box-shadow: #244766 5px 5px 10px;
+	-moz-box-shadow: #244766 10px 10px 10px;
+	box-shadow: #244766 10px 10px 10px;
+}
+
+.rightContent {
+	float: none;
+	margin-left: 181px;
+	border-right: 1px solid #B3B3B3;
+	border-left: 1px solid #B3B3B3;
+	border-bottom: 1px solid #B3B3B3;
+	padding: 5px;
+	
+}
+
+
+.button {
+	background-image: -moz-linear-gradient(top, #345, #100);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #100),color-stop(1, #345)); /* Saf4+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345')"; /* IE8+ */
+	color: #FFFFFF;
+}
+
+.inf {
+	
+}
+
+.headerGradient {
+		background-image: -moz-linear-gradient(top, #345, #100);
+		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #100),color-stop(1, #345)); /* Saf4+, Chrome */
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#345')"; /* IE8+ */
+}
+
+.headerGradientLow {
+		background-image: -moz-linear-gradient(top, #987, #100);
+		background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #100),color-stop(1, #B0B)); /* Saf4+, Chrome */
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#B0B'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#100', endColorstr='#B0B')"; /* IE8+ */
+}
+
+.logoHead {
+	vertical-align: middle;
+}
+
+.headerStrip {
+	width: 100%;
+	background-color: #345;
+}
+
+
+.headerContent {
+	width: 940px;
+	margin: auto;
+}
+
+.headText {
+	color: #FFF;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.tabHead {
+	width: 100%;
+}
+
+.tabHead thead td {
+	background-color: #838B8B;
+	font-weight: bold;
+	padding: 3.7px;
+	overflow: hidden;
+}
+.tabHead tbody tr td {
+	font-weight: normal;
+	background-color: #ECF1EF;
+	overflow: hidden;
+	padding: 2px;
+}
+
+
+.gvTable {
+	width: 100%;
+}
+
+.gvActive {
+	width: 60px;
+}
+
+
+.gvName {
+	width: 40px;
+}
+
+.gvDesg {
+	width: 40px;
+}
+
+.gvEmailId {
+	width: 60px;
+}
+
+.gvDept {
+	width: 15px;
+}
+3
+.gvSem {
+	width: 10px;
+}
+
+.gvUsn {
+	width: 40px;
+}
+
+
+.gvApproved {
+	
+}
+
+.demo a {
+	text-decoration: none;	
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background: url("images/ui-bg_inset-soft_30_ecf1ef_1x100.png") repeat-x scroll 50% 50% #ECF1EF;
+	color: 	#ECF1EF;
+	border: 1px solid #ECF1EF;
+}
+
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {
+	background: url("images/ui-bg_inset-soft_30_ecf1ef_1x100.png") repeat-x scroll 50% 50% #ECF1EF;
+	color: 	#ECF1EF;
+	border: 1px solid #ECF1EF;
+}
+
+.ui-state-highlight , .ui-widget-content .ui-state-highlight , .ui-widget-header .ui-state-highlight {
+	color: #838B8B;	
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	background: url("images/ui-bg_glass_40_838b8b_1x400.png") repeat-x scroll 50% 50% #838B8B;
+	color: #838B8B;
+	border: 1px solid #838B8B;
+}
+
+
+.ui-widget-header {
+	background: url("images/ui-bg_inset-soft_30_ecf1ef_1x100.png") repeat-x scroll 50% 50% #ECF1EF;
+	color: 	#000000;
+	border: 1px solid #ECF1EF;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: url("images/ui-bg_inset-soft_30_ecf1ef_1x100.png") repeat-x scroll 50% 50% #ECF1EF;
+	color: 	#000000;
+	border: 1px solid #ECF1EF;
+	font-weight: normal;
+}
+
+.ui-helper-reset {
+	line-height: 0.3;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #111111;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer {
+	margin-top: 40px;
+	text-align: center;
+	color: #666;
+	font: 10pt;
+}
